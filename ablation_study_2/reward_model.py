@@ -12,10 +12,10 @@ import matplotlib.pyplot as plt
 #from torchsummary import summary
 from torchinfo import summary
 
-print(len(os.listdir("/home/varad/aadya/new_annotations")))
-print(len(os.listdir("/home/varad/aadya/generated_samples")))
-# print(len(os.listdir("/home/varad/reward_model/new_annotations")))
-print(len(os.listdir('/home/varad/og')))
+print(len(os.listdir("~/new_annotations")))
+print(len(os.listdir("~/generated_samples")))
+# print(len(os.listdir("~/reward_model/new_annotations")))
+print(len(os.listdir('~/og')))
 # Function to extract features from annotations
 def extract_features(annotation_file, labels):
     with open(annotation_file, 'r') as json_file:
@@ -28,9 +28,9 @@ def extract_features(annotation_file, labels):
                     features[i] = 1
     return features
 
-image_directory = "/home/varad/aadya/generated_samples"
+image_directory = "~/generated_samples"
 
-annotation_directory = "/home/varad/aadya/new_annotations"
+annotation_directory = "~/new_annotations"
 
 labels = ['10 - 15 microns', 'Purple to abundant pink cytoplasm with many fine, lilac granules',
           'Lobulated (segmented) nucleus with 2 - 5 lobes connected by a thin filament of chromatin',
@@ -67,9 +67,9 @@ print("Shape of synthetic imgs label", Y_gen.shape)
 # Real Images
 X_real = []
 Y_real = []
-for image_filename in os.listdir('/home/varad/og'):
+for image_filename in os.listdir('~/og'):
     if image_filename.endswith('.png'):
-        image_path = os.path.join('/home/varad/og', image_filename)
+        image_path = os.path.join('~/og', image_filename)
         
         # Load the image
         image = Image.open(image_path)
