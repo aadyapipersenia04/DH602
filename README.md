@@ -1,5 +1,7 @@
 # Multi-label Human-Feedback-Boosted Generation of Histopathological Images
-This project was part of our course DH602@ IIT Bombay. 
+This project was part of our course DH602@ IIT Bombay.
+
+
 Inspired from the paper, 
 “Aligning synthetic medical images with clinical knowledge using human feedback” 
 by S. Sun, G. Goldgof, A. Butte, and A. M. Alaa, in Advances in Neural Information Processing Systems, vol. 36, 2024, 
