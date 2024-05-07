@@ -6,5 +6,5 @@ Inspired from the paper,
 “Aligning synthetic medical images with clinical knowledge using human feedback” 
 by S. Sun, G. Goldgof, A. Butte, and A. M. Alaa, in Advances in Neural Information Processing Systems, vol. 36, 2024, 
 
-we present a more nuanced feedback scheme - to have a multiple labels as criterion for stability and fine-tune the diffusion model with the feedback of a reward model,
+we present a more nuanced feedback scheme - to have a multiple labels as criterion for plausibility of generated image and fine-tune the diffusion model with the feedback of a reward model,
 that is trained on the annotations by an expert pathologist.
