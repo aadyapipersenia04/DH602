@@ -61,7 +61,7 @@ class MyResnext50(nn.Module):
 # Load the trained model
 resnext50_pretrained = torch.hub.load('pytorch/vision:v0.10.0', 'resnext50_32x4d')
 reward_model = MyResnext50(my_pretrained_model=resnext50_pretrained)
-reward_model.load_state_dict(torch.load('/home/varad/aadya/results/saved_models/best_model_ablation_3.pth',map_location=device))
+reward_model.load_state_dict(torch.load('~/results/saved_models/best_model_ablation_3.pth',map_location=device))
 reward_model.eval()  # Set the model to evaluation mode
 # Forward pass to get the predicted labels
 @dataclass
@@ -76,9 +76,9 @@ class TrainingConfig:
     save_image_epochs = 2
     save_model_epochs = 30
     mixed_precision = "fp16"  # `no` for float32, `fp16` for automatic mixed precision
-    output_dir = "/home/varad/aadya/finetuning_ablation_study"  # the model name locally and on the HF Hub
+    output_dir = "~/finetuning_ablation_study"  # the model name locally and on the HF Hub
     temp_dir = "temp"  # where to save the model temporarily before using it with the reward model
-    init_dir = "/home/varad/aadya/finetuning_ablation_study" # where the pretrained model is saved
+    init_dir = "~/finetuning_ablation_study" # where the pretrained model is saved
 
     push_to_hub = False  # whether to upload the saved model to the HF Hub
     hub_model_id = "varaddesh/ddpm-granulocytes"  # the name of the repository to create on the HF Hub
