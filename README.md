@@ -8,3 +8,6 @@ by S. Sun, G. Goldgof, A. Butte, and A. M. Alaa, in Advances in Neural Informati
 
 we present a more nuanced feedback scheme - to have a multiple labels as criterion for plausibility of generated image and fine-tune the diffusion model with the feedback of a reward model,
 that is trained on the annotations by an expert pathologist.
+
+
+1. <b>Fine Tuning</b>:  has all the files utilised for fine-tuning the diffusion model.    
