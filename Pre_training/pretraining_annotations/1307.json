@@ -1,0 +1,62 @@
+{
+    "id": 1384,
+    "created_username": " shivaliawasthi3@gmail.com, 5",
+    "created_ago": "2\u00a0days, 19\u00a0hours",
+    "completed_by": {
+        "id": 5,
+        "first_name": "",
+        "last_name": "",
+        "email": "shivaliawasthi3@gmail.com"
+    },
+    "task": {
+        "id": 1384,
+        "data": {
+            "image": "/data/upload/3/40f96b82-1307.png"
+        },
+        "meta": {},
+        "created_at": "2024-02-22T06:47:59.067647Z",
+        "updated_at": "2024-03-13T11:06:30.370541Z",
+        "is_labeled": true,
+        "overlap": 1,
+        "inner_id": 1382,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": 5,
+        "file_upload": 2922,
+        "comment_authors": []
+    },
+    "result": [
+        {
+            "value": {
+                "choices": [
+                    "Purple to abundant pink cytoplasm with many fine, lilac granules",
+                    "Dense chromatin with NO nucleolus",
+                    "Immature form of neutrophil"
+                ]
+            },
+            "id": "-lO4Ue9hg6",
+            "from_name": "plausibility_features",
+            "to_name": "granulocyte_image",
+            "type": "choices",
+            "origin": "manual"
+        }
+    ],
+    "was_cancelled": false,
+    "ground_truth": false,
+    "created_at": "2024-03-13T11:06:30.345690Z",
+    "updated_at": "2024-03-13T11:06:30.345714Z",
+    "draft_created_at": null,
+    "lead_time": 3.37,
+    "import_id": null,
+    "last_action": null,
+    "project": 3,
+    "updated_by": 5,
+    "parent_prediction": null,
+    "parent_annotation": null,
+    "last_created_by": null
+}

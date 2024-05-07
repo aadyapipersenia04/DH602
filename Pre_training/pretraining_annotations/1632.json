@@ -1,0 +1,64 @@
+{
+    "id": 1219,
+    "created_username": " shivaliawasthi3@gmail.com, 5",
+    "created_ago": "2\u00a0days, 20\u00a0hours",
+    "completed_by": {
+        "id": 5,
+        "first_name": "",
+        "last_name": "",
+        "email": "shivaliawasthi3@gmail.com"
+    },
+    "task": {
+        "id": 1219,
+        "data": {
+            "image": "/data/upload/3/fb6b0f5b-1632.png"
+        },
+        "meta": {},
+        "created_at": "2024-02-22T06:47:59.061515Z",
+        "updated_at": "2024-03-13T10:20:08.105763Z",
+        "is_labeled": true,
+        "overlap": 1,
+        "inner_id": 1217,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": 5,
+        "file_upload": 2757,
+        "comment_authors": []
+    },
+    "result": [
+        {
+            "value": {
+                "choices": [
+                    "10 - 15 microns",
+                    "Purple to abundant pink cytoplasm with many fine, lilac granules",
+                    "Lobulated (segmented) nucleus with 2 - 5 lobes connected by a thin filament of chromatin",
+                    "Nucleus: Cytoplasmic ratio is 33% approx",
+                    "Dense chromatin with NO nucleolus"
+                ]
+            },
+            "id": "BaH1s7Qh23",
+            "from_name": "plausibility_features",
+            "to_name": "granulocyte_image",
+            "type": "choices",
+            "origin": "manual"
+        }
+    ],
+    "was_cancelled": false,
+    "ground_truth": false,
+    "created_at": "2024-03-13T10:20:08.082240Z",
+    "updated_at": "2024-03-13T10:20:08.082261Z",
+    "draft_created_at": null,
+    "lead_time": 6.699,
+    "import_id": null,
+    "last_action": null,
+    "project": 3,
+    "updated_by": 5,
+    "parent_prediction": null,
+    "parent_annotation": null,
+    "last_created_by": null
+}

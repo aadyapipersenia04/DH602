@@ -1,0 +1,64 @@
+{
+    "id": 1337,
+    "created_username": " shivaliawasthi3@gmail.com, 5",
+    "created_ago": "2\u00a0days, 19\u00a0hours",
+    "completed_by": {
+        "id": 5,
+        "first_name": "",
+        "last_name": "",
+        "email": "shivaliawasthi3@gmail.com"
+    },
+    "task": {
+        "id": 1337,
+        "data": {
+            "image": "/data/upload/3/d36eb4ee-1418.png"
+        },
+        "meta": {},
+        "created_at": "2024-02-22T06:47:59.066675Z",
+        "updated_at": "2024-03-13T10:53:18.429460Z",
+        "is_labeled": true,
+        "overlap": 1,
+        "inner_id": 1335,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": 5,
+        "file_upload": 2875,
+        "comment_authors": []
+    },
+    "result": [
+        {
+            "value": {
+                "choices": [
+                    "10 - 15 microns",
+                    "Purple to abundant pink cytoplasm with many fine, lilac granules",
+                    "Lobulated (segmented) nucleus with 2 - 5 lobes connected by a thin filament of chromatin",
+                    "Nucleus: Cytoplasmic ratio is 33% approx",
+                    "Dense chromatin with NO nucleolus"
+                ]
+            },
+            "id": "iBETaknDRe",
+            "from_name": "plausibility_features",
+            "to_name": "granulocyte_image",
+            "type": "choices",
+            "origin": "manual"
+        }
+    ],
+    "was_cancelled": false,
+    "ground_truth": false,
+    "created_at": "2024-03-13T10:53:18.400255Z",
+    "updated_at": "2024-03-13T10:53:18.400289Z",
+    "draft_created_at": "2024-03-13T10:53:17.464232Z",
+    "lead_time": 6.824,
+    "import_id": null,
+    "last_action": null,
+    "project": 3,
+    "updated_by": 5,
+    "parent_prediction": null,
+    "parent_annotation": null,
+    "last_created_by": null
+}

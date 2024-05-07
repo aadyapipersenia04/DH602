@@ -1,0 +1,62 @@
+{
+    "id": 182,
+    "created_username": " shivaliawasthi3@gmail.com, 5",
+    "created_ago": "2\u00a0weeks, 4\u00a0days",
+    "completed_by": {
+        "id": 5,
+        "first_name": "",
+        "last_name": "",
+        "email": "shivaliawasthi3@gmail.com"
+    },
+    "task": {
+        "id": 180,
+        "data": {
+            "image": "/data/upload/3/daeabd2c-3727.png"
+        },
+        "meta": {},
+        "created_at": "2024-02-22T06:47:59.024675Z",
+        "updated_at": "2024-02-27T04:21:14.267805Z",
+        "is_labeled": true,
+        "overlap": 1,
+        "inner_id": 178,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": 5,
+        "file_upload": 1718,
+        "comment_authors": []
+    },
+    "result": [
+        {
+            "value": {
+                "choices": [
+                    "10 - 15 microns",
+                    "Nucleus: Cytoplasmic ratio is 33% approx",
+                    "Dense chromatin with NO nucleolus"
+                ]
+            },
+            "id": "h9tpfEeV5u",
+            "from_name": "plausibility_features",
+            "to_name": "granulocyte_image",
+            "type": "choices",
+            "origin": "manual"
+        }
+    ],
+    "was_cancelled": false,
+    "ground_truth": false,
+    "created_at": "2024-02-27T04:21:14.237815Z",
+    "updated_at": "2024-02-27T04:21:14.237843Z",
+    "draft_created_at": "2024-02-27T04:21:07.628408Z",
+    "lead_time": 130.96,
+    "import_id": null,
+    "last_action": null,
+    "project": 3,
+    "updated_by": 5,
+    "parent_prediction": null,
+    "parent_annotation": null,
+    "last_created_by": null
+}

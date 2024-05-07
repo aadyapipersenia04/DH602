@@ -1,0 +1,64 @@
+{
+  "id": 2362,
+  "created_username": " shivaliawasthi3@gmail.com, 5",
+  "created_ago": "7\u00a0minutes",
+  "completed_by": {
+    "id": 5,
+    "first_name": "",
+    "last_name": "",
+    "email": "shivaliawasthi3@gmail.com"
+  },
+  "task": {
+    "id": 2372,
+    "data": {
+      "image": "/data/upload/8/988b20bc-7.png"
+    },
+    "meta": {},
+    "created_at": "2024-05-07T13:02:36.970933Z",
+    "updated_at": "2024-05-07T14:03:03.457441Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "inner_id": 94,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 8,
+    "updated_by": 5,
+    "file_upload": 3910,
+    "comment_authors": []
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "10 - 15 microns",
+          "Purple to abundant pink cytoplasm with many fine, lilac granules",
+          "Lobulated (segmented) nucleus with 2 - 5 lobes connected by a thin filament of chromatin",
+          "Nucleus: Cytoplasmic ratio is 33% approx",
+          "Dense chromatin with NO nucleolus"
+        ]
+      },
+      "id": "4wOo9DbZmR",
+      "from_name": "plausibility_features",
+      "to_name": "granulocyte_image",
+      "type": "choices",
+      "origin": "manual"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2024-05-07T14:03:03.435040Z",
+  "updated_at": "2024-05-07T14:03:03.435074Z",
+  "draft_created_at": null,
+  "lead_time": 3.672,
+  "import_id": null,
+  "last_action": null,
+  "project": 8,
+  "updated_by": 5,
+  "parent_prediction": null,
+  "parent_annotation": null,
+  "last_created_by": null
+}

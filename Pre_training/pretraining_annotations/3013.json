@@ -1,0 +1,64 @@
+{
+    "id": 542,
+    "created_username": " shivaliawasthi3@gmail.com, 5",
+    "created_ago": "1\u00a0week, 5\u00a0days",
+    "completed_by": {
+        "id": 5,
+        "first_name": "",
+        "last_name": "",
+        "email": "shivaliawasthi3@gmail.com"
+    },
+    "task": {
+        "id": 542,
+        "data": {
+            "image": "/data/upload/3/4bec20b1-3013.png"
+        },
+        "meta": {},
+        "created_at": "2024-02-22T06:47:59.037378Z",
+        "updated_at": "2024-03-03T14:54:31.162318Z",
+        "is_labeled": true,
+        "overlap": 1,
+        "inner_id": 540,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": 5,
+        "file_upload": 2080,
+        "comment_authors": []
+    },
+    "result": [
+        {
+            "value": {
+                "choices": [
+                    "10 - 15 microns",
+                    "Purple to abundant pink cytoplasm with many fine, lilac granules",
+                    "Lobulated (segmented) nucleus with 2 - 5 lobes connected by a thin filament of chromatin",
+                    "Nucleus: Cytoplasmic ratio is 33% approx",
+                    "Dense chromatin with NO nucleolus"
+                ]
+            },
+            "id": "f_UOt2MT3g",
+            "from_name": "plausibility_features",
+            "to_name": "granulocyte_image",
+            "type": "choices",
+            "origin": "manual"
+        }
+    ],
+    "was_cancelled": false,
+    "ground_truth": false,
+    "created_at": "2024-03-03T14:54:31.139482Z",
+    "updated_at": "2024-03-03T14:54:31.139497Z",
+    "draft_created_at": "2024-03-03T14:54:29.753385Z",
+    "lead_time": 8.332,
+    "import_id": null,
+    "last_action": null,
+    "project": 3,
+    "updated_by": 5,
+    "parent_prediction": null,
+    "parent_annotation": null,
+    "last_created_by": null
+}
