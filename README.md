@@ -14,5 +14,5 @@ Our directory structure is as follows:
 2.  <b>Fine_tuning</b>:  has all the files utilised for fine-tuning the diffusion model.  'finetune_final99.py' was used to run the fine tuning. 'generate_from_finetuned.py' used to run inference and generate images for final validation.
 3.  <b>Reward_model</b>: 'reward_model.py' is the complete file for training the reward model.
 4.  <b>ablation_study_1</b>:
-5.  <b>ablation_study_1</b>:
+5.  <b>ablation_study_2</b>: 'reward_model.py' is used to train the reward model for binary classification of the images. 'finetune.py' is used to finetune the diffusion model using the original images and the images annotated by the reward model.
 6.  <b>original_training_dataset</b>: contains the images from MedMNist. https://medmnist.com/
