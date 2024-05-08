@@ -13,6 +13,6 @@ Our directory structure is as follows:
 1.  <b>Pre_training</b>: has all the files for training the diffusion model. train.py is used to train and generate.py used to run inference and generate images which were annotated by the Pathologist. 'training_epochs' subfolder has sample images for different epochs. 
 2.  <b>Fine_tuning</b>:  has all the files utilised for fine-tuning the diffusion model.  'finetune_final99.py' was used to run the fine tuning. 'generate_from_finetuned.py' used to run inference and generate images for final validation.
 3.  <b>Reward_model</b>: 'reward_model.py' is the complete file for training the reward model.
-4.  <b>ablation_study_1</b>:
+4.  <b>ablation_study_1</b>: run train_text_to_image.py in ablation_study_1/diffusers/examples/text_to_image/ along with the huggingface dataset name as flag: shreyasgrampurohit/neutrophil-text-dataset-og
 5.  <b>ablation_study_2</b>: 'reward_model.py' is used to train the reward model for binary classification of the images. 'finetune.py' is used to finetune the diffusion model using the original images and the images annotated by the reward model.
 6.  <b>original_training_dataset</b>: contains the images from MedMNist. https://medmnist.com/
